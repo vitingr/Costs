@@ -48,21 +48,30 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
     }
 
     function handleChange(e) {
-        setProject({ ...project, [e.target.name]: e.target, value })
+        setProject({ ...project, [e.target.name]: e.target.value })
+    }
+
+    function handleCategory(e) {
+        setProject({ ...project, category: {
+
+            // Usando um noSQL, inserindo um objeto dentro do objeto. Pegando o ID do objeto e tipo pegando as info dele e copiando
+            id: e.target.value,
+            name: e.target.options[e.target.selectedIndex].text,
+        }})
     }
 
     return (
         <form onSubmit={submit} className={styles.form}>
             <div>
-                <Input type="text" text="Nome do Projeto" name="name" placeholder="Insira o Nome do Projeto" />
+                <Input type="text" text="Nome do Projeto" name="name" placeholder="Insira o Nome do Projeto" handleOnChange={handleChange} value={project.name ? project.name: ''} />
             </div>
 
             <div>
-                <Input type="number" text="Orçamento do Projeto" name="budget" placeholder="Insira o Orçamento Total" />
+                <Input type="number" text="Orçamento do Projeto" name="budget" placeholder="Insira o Orçamento Total" handleOnChange={handleChange} value={project.budget ? project.budget: ''} />
             </div>
 
             <div>
-                <Select name="category_id" text="Selecione a Categoria" options={categories} />
+                <Select name="category_id" text="Selecione a Categoria" options={categories} handleOnChange={handleCategory} value={project.category ? project.category.id: ''} />
             </div>
 
             <div>

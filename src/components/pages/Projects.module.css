@@ -1,0 +1,16 @@
+.project_container {
+    padding: 2em;
+}
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.desc_projeto {
+    text-align: justify	;
+    color: #585858;
+    width: 750px;
+    margin-bottom: 3em;
+}
