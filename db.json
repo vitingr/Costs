@@ -1,26 +1,48 @@
 {
   "projects": [
     {
-      "name": "TESTE",
-      "budget": "5000",
+      "name": "Implementar o CS",
+      "budget": "3750",
       "category": {
-        "id": "1",
-        "name": "Infraestrutura"
+        "id": "3",
+        "name": "Design"
       },
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "name": "Planner da Empresa",
+      "budget": "1000",
       "cost": 0,
       "services": [],
       "id": 2
     },
     {
-      "name": "Mundo dos Bebes",
-      "budget": "15000",
+      "name": "Designer Digital",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
+      "budget": "25000",
       "cost": 0,
       "services": [],
       "id": 3
+    },
+    {
+      "name": "Arrumar a Lampada",
+      "category": {
+        "id": "1",
+        "name": "Infraestrutura"
+      },
+      "budget": "100",
+      "cost": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [

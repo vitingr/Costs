@@ -4,21 +4,20 @@
     border-radius: 15px;
     width: 24%;
     margin: 0.5%;
-    -webkit-box-shadow: 10px 10px 20px -1px rgba(158,158,158,1);
-    -moz-box-shadow: 10px 10px 20px -1px rgba(158,158,158,1);
-    box-shadow: 10px 10px 20px -1px rgba(158,158,158,1);
+    -webkit-box-shadow: 10px 10px 20px -1px rgba(158, 158, 158, 1);
+    -moz-box-shadow: 10px 10px 20px -1px rgba(158, 158, 158, 1);
+    box-shadow: 10px 10px 20px -1px rgba(158, 158, 158, 1);
     background: white;
 }
 
 .project_card h4 {
     border-radius: 5px;
     text-align: center;
-    background: linear-gradient(-185deg, #222, #262626, #404040);
+    background: linear-gradient(-185deg, #222, #262626, #1d1d1d);
     color: #FFBB33;
     padding: 0.4em;
     margin-bottom: 1.3em;
     font-size: 1.3em;
-    font-weight: 500;
     text-transform: uppercase;
 }
 
