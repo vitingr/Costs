@@ -4,11 +4,18 @@
       "name": "Implementar o CS",
       "budget": "3750",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 500,
+      "services": [
+        {
+          "name": "Chamar o XD para Carregar",
+          "cost": "500",
+          "description": "Chamar o XD para trocar bala contra os globalzinho do MM",
+          "id": "308d6a54-54b4-4584-9550-7acd4a2f128e"
+        }
+      ],
       "id": 1
     },
     {
@@ -18,8 +25,33 @@
       },
       "name": "Planner da Empresa",
       "budget": "1000",
-      "cost": 0,
-      "services": [],
+      "cost": 423,
+      "services": [
+        {
+          "name": "teste",
+          "cost": "199",
+          "description": "testando",
+          "id": "e9efbd48-d46a-40ef-8558-3f31d481dc47"
+        },
+        {
+          "name": "bebe iel",
+          "description": "melissa",
+          "cost": "100",
+          "id": "16099683-8de6-4ede-ae68-babcf4154421"
+        },
+        {
+          "name": "bebe iell",
+          "description": "melissa",
+          "cost": "1",
+          "id": "f1407383-e68a-4d19-9858-77dcff472d63"
+        },
+        {
+          "cost": "123",
+          "name": "mundo dos bebes",
+          "description": "teste",
+          "id": "d22e9b1b-5402-4e3e-ae86-e705cdec3ad3"
+        }
+      ],
       "id": 2
     },
     {
@@ -35,11 +67,11 @@
     },
     {
       "name": "Arrumar a Lampada",
+      "budget": "25000",
       "category": {
         "id": "1",
         "name": "Infraestrutura"
       },
-      "budget": "100",
       "cost": 0,
       "services": [],
       "id": 4

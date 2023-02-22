@@ -1,0 +1,19 @@
+.form {
+    width: 100%;
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    border-bottom: 1px solid #ffefce;
+    padding: 1.25em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    width: 800px;
+}
+
+.form input:focus {
+    border-bottom: 1px solid #ffda8f;
+    outline: none;
+}
